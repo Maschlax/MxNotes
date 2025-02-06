@@ -1,4 +1,4 @@
-var file_name = "mxtext";
+var file_name = "mxfile.txt";
 
 function getFileName() {
     return file_name;
@@ -14,7 +14,6 @@ function saveFileName() {
     localStorage.setItem('filename', file_name);
     document.getElementById("textarea").focus();
 }
-
 
 function showFileName() {
     fileNameDisplay.innerHTML = getFileName();
