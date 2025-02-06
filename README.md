@@ -1,7 +1,9 @@
 # MxNotes
 By Maschlax
 
-See https://mxnotes.mxlx.dev
+My first big JavaScript project. Made in one day.
+
+See https://notes.mxlx.dev
 
 ## License
 - You can modify the source code to your likings for personal use.
