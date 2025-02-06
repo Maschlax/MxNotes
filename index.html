@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MxNotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://mxlx.dev/images/favicon.ico">
+    <script src="meta-tags.js"></script>
+    <script>setMetaTags('Simple Text Editor');</script>
+</head>
+<body>
+    <div class="top">
+        <button class="menu-element"><h3>MxNotes</h3></button>
+        <button class="menu-element"><p id="filenamedisplay" contenteditable="true" spellcheck="false">mxfile.txt</p></button>
+        <span></span>
+        <button class="file-category btn dropdown">File</button>
+        <button class="other-category btn dropdown">Other</button>
+    </div>
+    <div id="main">
+        <textarea id="textarea"></textarea>
+    </div>
+    <div class="bottom">
+        <div class="stats">
+            <p id="count-word" class="menu-element">Words: 0</p>
+            <p id="count-char" class="menu-element">Characters: 0</p>
+        </div>
+        <a href="https://mxlx.dev" target="_blank" class="menu-element" id="credit">mxlx.dev</a>
+    </div>
+</body>
+<script src="constants.js"></script>
+<script src="filemanager.js"></script>
+<script src="actions.js"></script>
+<script src="download.js"></script>
+<script src="dropdown.js"></script>
+<script src="statistics.js"></script>
+<script src="hotkeys.js"></script>
+<script src="screen-check.js"></script>
+</html>
