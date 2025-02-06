@@ -1,5 +1,5 @@
 function setMetaTags(titleSuffix) {
-    const baseTitle = 'MxNotes';
+    const baseTitle = 'MxNotes - ';
     const fullTitle = baseTitle + titleSuffix;
     
     const metaTags = `

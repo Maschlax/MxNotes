@@ -58,6 +58,12 @@ document.addEventListener("keydown", (event) => {
         window.open('https://mxlx.dev', '_blank');
     }
 
+    // ctrl + g
+    if ((event.ctrlKey || event.metaKey) && event.key === 'g') {
+        event.preventDefault();
+        window.open('https://github.com/maschlax/mxnotes', '_blank');
+    }
+
     // ctrl + p
     if ((event.ctrlKey || event.metaKey) && event.key === 'p') {
         event.preventDefault();

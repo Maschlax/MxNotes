@@ -8,6 +8,7 @@ const menuConfig = {
     },
     "other-category": {
         "MXLX": { shortcut: "Ctrl+M", action: () => window.open('https://mxlx.dev', '_blank') }, // link to creator website
+        "GitHub": { shortcut: "Ctrl+G", action: () => window.open('https://github.com/maschlax/mxnotes', '_blank') }, // link to github repo
         "Privacy": { shortcut: "Ctrl+P", action: () => window.open('/privacy.html', '_blank') }, // link to privacy page
         "Legal": { shortcut: "Ctrl+L", action: () => window.open('/legal.html', '_blank') } // link to terms
     }
