@@ -155,6 +155,7 @@ body {
     text-decoration: underline;
     transform: scale(1.05);
     background: none;
+    cursor: pointer;
 }
 
 .main {
@@ -210,5 +211,3 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
-/* TODO <450 pixels wide -> page broken*/

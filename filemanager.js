@@ -31,6 +31,7 @@ function loadContent() {
     if (filename) {
         file_name = filename;
         showFileName();
+        refreshStatistics();
     }
 }
 

@@ -1,12 +1,15 @@
 window.newFile = function() {
     clearText();
     setFileName("mxfile.txt");
+    refreshStatistics();
 }
+
 
 window.clearText = function() {
     const textarea = document.getElementById("textarea");
     textarea.value = '';
     saveContent();
+    refreshStatistics();
 }
 
 window.renameFile = function() {
